@@ -1,0 +1,75 @@
+.sidebar {
+	width:35%;
+}
+
+.sidebar .user-profile {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0.5rem 1rem;
+	border-right:solid 1px lightgray;
+	background-color:#eeeeee;
+}
+
+.sidebar .search {
+	width:100%;
+	padding:0.7rem;
+	position:relative;
+	background-color:#f6f6f6;
+}
+
+.sidebar .search input[type="search"] {
+	width:100%;
+	background-color:#fff;
+	padding:0.6rem 1rem 0.6rem 2.5rem;
+	border:none;
+	font-weight:500;
+	border-radius:100px;
+	outline:none;
+}
+
+.sidebar .user {
+	height:76vh;
+	overflow-y:scroll;
+	background-color:#fff;
+	padding:1.2rem 1rem;
+}
+
+.sidebar .user h2 {
+	text-align:center;
+	border-bottom:solid 1px #f6f6f6;
+	padding-bottom:0.5rem;
+}
+
+.sidebar .user .user-section {
+	margin-top:15px;
+}
+
+.sidebar .user .user-chat {
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0.5rem 0;
+	cursor:pointer;
+	transition:all 0.3s ease;
+}
+
+.user .user-chat:hover {
+	background-color:var(--primary-white-bg);
+}
+
+.user .user-chat .chat-data {
+	width:83%;
+
+}
+
+.user-chat .chat-data p {
+	color:var(--primary-darkgreen-bg);
+	font-size:0.9rem;
+	margin-top:5px;
+	width:90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
